@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "RILOP Computer Chair, Gaming Chair, Ergonomic S",
+    "price": "$398.00",
+    "image": "/Images/Product1.svg"
+  },
+  {
+    "id": 2,
+    "name": "AKRacing AK-Opal Gaming Chair, Black",
+    "price": "$149.99",
+    "image": "/Images/Product2.svg"
+  },
+  {
+    "id": 3,
+    "name": "Lorell Chair, Red/Black",
+    "price": "$199.99",
+    "image": "/Images/Product3.svg"
+  },
+  {
+    "id": 4,
+    "name": "Corsair T1 Race (2023) Gaming Chair, One Size, Black/Red",
+    "price": "$79.99",
+    "image": "/Images/Product4.svg"
+  },
+  {
+    "id": 5,
+    "name": "WorkPro 1000 Series Ergonomic Mesh/Mesh Mid-Back Chair",
+    "price": "$179.99",
+    "image": "/Images/Product5.svg"
+  },
+  {
+    "id": 6,
+    "name": "Realscape Torval Big & Tall Bonded Leather High-Back",
+    "price": "$149.99",
+    "image": "/Images/Product6.svg"
+  },
+  {
+    "id": 7,
+    "name": "Alera ALEEL41ME10B Elusion Series High-Back Multifunction Chair",
+    "price": "$79.99",
+    "image": "/Images/Product7.svg"
+  },
+  {
+    "id": 8,
+    "name": "Sharkoon Skiller SGS4 Gaming Chair, 58 x 60.5 x 12",
+    "price": "$208.00",
+    "image": "/Images/Product8.svg"
+  },
+  {
+    "id": 9,
+    "name": "Itoki YES-A-WR-AEL Gaming Chair, Office Chair, Cross Frame",
+    "price": "$237.00",
+    "image": "/Images/Product9.svg"
+  },
+  {
+    "id": 10,
+    "name": "RILOP Computer Chair, Gaming Chair, Ergonomic S (Blue)",
+    "price": "$259.99",
+    "image": "/Images/Product10.svg"
+  }
+]

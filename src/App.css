@@ -1,0 +1,501 @@
+body {
+  margin: 0;
+  background: #d2d3d5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.cart {
+  display: flex;
+  width: 220px;
+  height: 385px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 1);
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.cart h1 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.carts {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin: 20px;
+}
+
+.container nav  {
+  background: rgba(23, 23, 23, 1);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container nav h1, a {
+  margin: 20px; 
+}
+
+.container nav a {
+  padding: 12px 10px 12px 10px;
+  border-radius: 8px;
+  background: rgba(0, 174, 28, 1);
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.container nav h1 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.title-nav {
+  background: rgba(23, 23, 23, 1);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.title-nav h1, a {
+  margin: 20px; 
+}
+
+.title-nav a {
+  padding: 12px 10px 12px 10px;
+  border-radius: 8px;
+  background: rgba(0, 174, 28, 1);
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.title-nav h1 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.cart-item {
+  display: flex;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  background: white;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px;
+  padding: 10px;
+}
+
+.number {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.number button {
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: rgba(0, 174, 28, 1);
+  color: white;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.delete-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.delete-price button {
+  border-radius: 8px;
+  width: 81px;
+  height: 36px;
+  border: none;
+  background: rgba(0, 174, 28, 1);
+  color: white;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.link ul li a{
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: center;
+  color: rgba(36, 53, 115, 1);
+}
+
+.link ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.title-cart {
+  margin: 50px;
+  color: rgba(36, 53, 115, 1);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.73px;
+  letter-spacing: -0.26124143600463867px;
+}
+
+.sum-tog-next {
+  margin: 50px;
+}
+
+.sum-tog-next button {
+  width: 150px;
+  height: 36px;
+  background: rgba(0, 174, 28, 1);
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.submit {
+  width: 150px;
+  height: 36px;
+  background: rgba(0, 174, 28, 1);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  position: relative;
+  top: 96px;
+  right: 694px;
+}
+
+.submit-shipment {
+  width: 150px;
+  height: 36px;
+  background: rgba(0, 174, 28, 1);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  position: relative;
+  top: 119px;
+  right: 25px;
+}
+
+.sum-tog-next h4, h5 {
+  color: rgba(36, 53, 115, 1);
+}
+
+.link ul {
+  display: flex;
+  gap: 30px;
+}
+
+
+form {
+  display: flex;
+  width: 960px;
+  height: 126px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+  margin: 50px;
+  padding: 25px;
+  gap: 24px;
+}
+
+form div {
+  width: 310px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-inf {
+  margin: 50px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.73px;
+  letter-spacing: -0.26124143600463867px;
+  color: rgba(36, 53, 115, 1);
+}
+
+form div label {
+  color: rgba(36, 53, 115, 1);
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: -0.20000000298023224px;
+}
+
+form div input {
+  border: none;
+  border-bottom: 1px solid rgba(115, 115, 115, 1);
+  color: rgba(36, 53, 115, 1);
+  height: 25px;
+}
+
+.link {
+  margin: 10px;
+}
+
+.sum-tog-next button {
+  cursor: pointer;
+}
+
+form div input::placeholder {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.30000001192092896px;
+  color: rgba(36, 53, 115, 1);
+  
+}
+
+.form-shipment {
+  display: flex;
+  width: 960px;
+  height: 320px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+  margin: 50px;
+  padding: 25px;
+  gap: 24px;
+  flex-direction: column;
+}
+
+.form-shipment div label {
+  color: rgba(36, 53, 115, 1);
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: -0.20000000298023224px;
+}
+
+.form-shipment div input {
+  border: none;
+  border-bottom: 1px solid rgba(115, 115, 115, 1);
+  color: rgba(36, 53, 115, 1);
+  height: 25px;
+}
+
+.form-shipment div input::placeholder {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.30000001192092896px;
+  color: rgba(36, 53, 115, 1);
+}
+
+.country-state-zip {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+}
+
+
+.country-state-zip div {
+  width: 250px;
+  height: 40px;
+}
+
+.country-state-zip div label {
+  width: 260px;
+  height: 40px;
+}
+
+.country-state-zip select {
+  border: none;
+  border-bottom: 1px solid rgba(115, 115, 115, 1);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.30000001192092896px;
+  color: rgba(36, 53, 115, 1);
+}
+
+.carts button {
+  background: rgba(0, 174, 28, 1);
+  width: 224px;
+  height: 36px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.30000001192092896px;
+  cursor: pointer;
+}
+
+.cart h2 {
+  margin: 0;
+}
+
+button:hover {
+  background: rgba(92, 225, 113, 1);
+  transition: .4s;
+}
+
+.link ul li:hover {
+  border-bottom: 1px solid rgba(36, 53, 115, 1);
+}
+
+.cart-item img {
+  width: 130px;
+  height: 130px;
+}
+
+.description {
+  flex: 1;
+}
+
+.information div {
+  width: 459px;
+  height: 88px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 13px;
+}
+
+.information p {
+  margin: 0;
+}
+
+.information h3 {
+  margin: 10px 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: rgba(36, 53, 115, 1);
+}
+
+.information {
+  display: flex;
+  gap: 20px;
+}
+
+.information div p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+
+.order-summary {
+  border: 1px solid rgba(200, 200, 200, 1);
+  background: rgba(255, 255, 255, 1);
+  width: 960px;
+  padding: 15px;
+}
+
+
+.order-cart .add-cart {
+  border-bottom: 1px solid rgba(200, 200, 200, 1);
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.add-cart div {
+  flex: 1;
+}
+
+.add-cart div p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(12, 12, 12, 1);
+}
+
+.add-cart div h5 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(12, 12, 12, 1);
+}
+
+.submit-continue {
+  width: 150px;
+  height: 36px;
+  background: rgba(0, 174, 28, 1);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  position: relative;
+  top: 73px;
+  right: 18px;
+}
+
+.order-cart img {
+  width: 90px;
+  height: 90px;
+}
+
+.result {
+  margin: 10px 0;
+}
+
+.result h3 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+}
+
+.result h4 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  letter-spacing: -0.26124143600463867px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+}
+
+.link a.active {
+  color: rgba(0, 174, 28, 1);
+}
